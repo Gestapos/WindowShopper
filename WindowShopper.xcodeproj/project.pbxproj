@@ -14,6 +14,8 @@
 		A8A48156217227230093F8F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A48154217227230093F8F7 /* LaunchScreen.storyboard */; };
 		A8A48162217227890093F8F7 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A48161217227890093F8F7 /* CurrencyTextField.swift */; };
 		A8A4816A21722DA30093F8F7 /* WindowShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4816921722DA30093F8F7 /* WindowShopperTests.swift */; };
+		A8A4817221722DF90093F8F7 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4817121722DF90093F8F7 /* Wage.swift */; };
+		A8A4817321722F520093F8F7 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A4817121722DF90093F8F7 /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		A8A4816721722DA20093F8F7 /* WindowShopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowShopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A4816921722DA30093F8F7 /* WindowShopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowShopperTests.swift; sourceTree = "<group>"; };
 		A8A4816B21722DA30093F8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A4817121722DF90093F8F7 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 		A8A4815F217227380093F8F7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8A4817121722DF90093F8F7 /* Wage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A48162217227890093F8F7 /* CurrencyTextField.swift in Sources */,
+				A8A4817221722DF90093F8F7 /* Wage.swift in Sources */,
 				A8A4814E217227220093F8F7 /* ShopperController.swift in Sources */,
 				A8A4814C217227220093F8F7 /* AppDelegate.swift in Sources */,
 			);
@@ -243,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A4816A21722DA30093F8F7 /* WindowShopperTests.swift in Sources */,
+				A8A4817321722F520093F8F7 /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
